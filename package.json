@@ -1,0 +1,26 @@
+{
+    "name": "baseball-canvas",
+    "version": "1.0.0",
+    "description": "My attempt at drawing a baseball field using the HTML canvas element.",
+    "main": "src/index.html",
+    "scripts": {
+        "build": "rm -rf dist && parcel build src/index.html --public-url ./",
+        "dev": "parcel src/index.html --open"
+    },
+    "keywords": [
+        "baseball",
+        "canvas",
+        "HTML"
+    ],
+    "author": "Dave Schumaker <dave@dave.ly>",
+    "license": "MIT",
+    "prettier": {
+        "arrowParens": "avoid",
+        "bracketSpacing": true,
+        "printWidth": 100,
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "none"
+    }
+}
